@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headingOne {
+    font-weight: 300;
+    text-align: left;
+    padding-left: 3rem;
+    margin: 0px;
+    padding-top: 4%;
+}
+
+#headingImage {
+    width: 300px;
+    height: 300px;
+}
+
+#heardercolmemu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+}
+
+#devfirst{
+font-size:1.5rem;
+font-family: Arial, monospace,Helvetica, sans-serif;
+font-family: monospace;
+    
+}
+#devfirst > p{
+    margin:0px;
+}
+
+#headercol {
+    display: flex;
+    margin: 5% 0%;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+#postposition {
+    position: absolute;
+    top: 70%;
+    width: 49%;
+    background-color: aqua;
+    text-align: end;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    z-index: -1;
+}
+
+#postposition>p {
+    margin: 7px 37px;
+}
+
+#threelinebutton{
+font-size: 1.5rem;
+    border: 0px;
+    box-shadow: 0px 0px 1px 1px salmon;
+    background: none;
+    border-radius: 5px;
+    padding: 4px;
+}
+#threelinebutton > svg{
+    vertical-align: middle;
+    padding: 0px 0px 2px 0px;
+}
+#footericon {
+list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+#footericon > li{
+padding: 0.6Rem 0.6Rem;
+    BORDER: 1PX SOLID;
+    MARGIN: 0.6REM;
+    BORDER-RADIUS: 50%;
+
+}
+
+
+#gmailicon{
+vertical-align: sub;
+}
+#FooterPort{
+   padding: 1em;
+    display: flex;
+    JUSTIFY-CONTENT: space-between;
+}
+#gmailitext{
+    padding: 1em;
+}
+#footer-part-two{
+    WIDTH: 40%;
+}
+
+#footer-two-ul{
+    LIST-STYLE: NONE;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: math;
+    letter-spacing: 1px;
+}
+
+#footer-two-ul > li{
+    margin: 1rem 0px;
+    
+    text-align: left;
+    padding: 1%;
+ }   
+#footer-menu-header{
+text-decoration: underline;
+}
+#imageskill-design-li{
+width: 30vw;
+    height: 30vh;
+    margin: 3px;
+    list-style: none;
+}
+#imageskill-design{
+width: inherit;
+    height: inherit;
+    border: 1px solid #23f909;
+    border-radius: 6px;
+    transition-property: transform, opacity;
+    transition-duration: 750ms, 250ms;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1), linear;
+}
+#imageskill-design:hover, #imageskill-design:focus  {
+    transform: scale(1.2);
+    opacity: 1;
+}
+#imageskill-design-ul{
+display: flex;
+flex-wrap: wrap;
+padding: 3rem;
+justify-content:center ;
+
+}
+
+#Work-design-part-section > h1{
+  padding-top: 1rem;
+  font-family: sans-serif;
+}  

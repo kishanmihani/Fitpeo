@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            width: 13vw;
+    height: 5vh;
+    font-size: medium;
+    font-family: sans-serif, ui-sans-serif;
+    background: GREEN;
+    color: white;
+    border: 0px;
+    border-radius: 6px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+        }
+        form{
+            padding: 15px;
+            BORDER:1px solid #383535;
+        margin: 15px;
+        border-radius: 5px
+        }
+        .d-flex{
+            display:flex;
+            width: 100%;
+        height: 5vh;
+        margin: 2vh;
+        position:relative;
+        }
+        input {   
+            font-family: sans-serif, UI-SANS-SERIF;
+    font-weight: 450;
+    padding-left: 9px; 
+        height: inherit;
+        width: -webkit-fill-available;
+        border: 1px solid #383535;
+        border-radius: 5px;
+        }
+    .d-flex div{
+        width: 49%;
+        text-align: left;
+        height:inherit;
+        
+    }
+    label,figcaption{
+        font-family: sans-serif, UI-SANS-SERIF;
+        vertical-align: -webkit-baseline-middle;
+    }
+    figcaption{
+        font-size: 24px;
+    }
+    .new::after {
+    content: ':';
+    position: absolute;
+    left: 20.5vw;
+    width: 50px;
+  font-size: 24px;
+}
+.heading{
+font-family: sans-serif, ui-monospace;
+    font-weight: 500;
+    text-decoration: underline;
+    COLOR:#0562f9
+}  
+</style>
+</head>
+
+
+<body>
+    <div style="display: flex;width: 98%; justify-content: center;">
+        
+        <div style=" width: 49%;text-align: center;margin:auto">
+             
+            <form action="" style="padding: 5px;">
+
+                <h2 class="heading">Scribble Tools Graph Form</h2>
+            <div class="d-flex">
+                <div class="new"><label for="">Long Runs</label></div>
+            <div><input type="number" value="6"></div>
+        </div>
+
+            <div class="d-flex">
+                <div class="new"><label for="">Energy</label></div>
+            <div><input type="number" value="3"></div>
+            </div>
+
+            <div class="d-flex">
+                <div class="new"><label for="">Sleep</label></div>
+            <div><input type="number" value="8"></div>
+            </div>
+            <div class="d-flex">
+                <div class="new"><label for="">Interval</label></div>
+            <div><input type="number" value="9"></div>
+            </div>
+            <div>
+                <button id="kishan" type="button">Submit</button>
+            </div>
+        </form></div>
+        <div style=" width: 49%;text-align: center;">
+            <figure>
+        <img style="
+            width: -webkit-fill-available;
+        "  src="./scribbletools.png" />
+    <figcaption>Scribble  Graph Running</figcaption>    
+</figure>
+    </div>
+    </div>
+    <div id="container"></div>
+</body>
+<script>
+
+    function addfunction(num1,num2){
+        return num1 + num2
+}
+
+let result=addfunction(5,10);
+console.log(result);
+
+let arr=[1,2,3,4,5,5];
+let result2= arr.reduce((acc, val) =>{acc + val,0})
+console.log(result2);
+
+const newParagraph = document.getElementById('container').appendChild(document.createElement('p'));
+
+newParagraph.textContent='this is a new Paragraph';
+
+const arrayWithDuplicates=[1,2,3,4,1,2,5];
+const uniqueArray =[...new Set(arrayWithDuplicates)];
+console.log(uniqueArray);
+document.getElementById('kishan').addEventListener('click',function(e){
+    
+    let text=0;
+    var nuu=['kishan','newron','kishan34']
+    nuu.map(myFunction);
+    function myFunction(item, index,arr){
+        debugger;
+            text +=index +" "+ item;
+    
+     console.log(arr[index] = item)
+    }
+    console.log(text +=index +" "+ item  +'\n')
+    alert('clicked submit button')
+})
+
+
+
+</script>
+</html>

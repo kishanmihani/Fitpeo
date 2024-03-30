@@ -1,0 +1,20 @@
+{
+  
+  "list": [
+    {
+    "imgs":"../Images/Capture1.png"
+  },
+  {
+    "imgs":"../Images/Capture2.png"
+  },
+  {
+    "imgs":"../Images/Capture3.png"
+  },
+  {
+    "imgs":"../Images/Capture4.png"
+  },
+  {
+    "imgs":"../Images/Capture5.png"
+  }
+  ]
+}
